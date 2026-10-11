@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { Button } from '../components/Button'
+import { ConfirmDialog } from '../components/ConfirmDialog'
 import { Screen } from '../components/Screen'
 import type { Round } from '../game'
 
@@ -15,11 +17,13 @@ interface RoundScreenProps {
 }
 
 export function RoundScreen({ round, onReveal, onQuit }: RoundScreenProps) {
+  const [confirming, setConfirming] = useState(false)
+
   return (
     <Screen
       onQuit={onQuit}
       footer={
-        <Button size="lg" color="tomato" onClick={onReveal}>
+        <Button size="lg" color="tomato" onClick={() => setConfirming(true)}>
           Revelar o impostor
         </Button>
       }
@@ -43,6 +47,19 @@ export function RoundScreen({ round, onReveal, onQuit }: RoundScreenProps) {
           </li>
         ))}
       </ol>
+
+      {confirming && (
+        <ConfirmDialog
+          emoji="🫣"
+          title="Revelar o impostor?"
+          confirmLabel="Sim, revelar!"
+          cancelLabel="Ainda não"
+          onConfirm={onReveal}
+          onCancel={() => setConfirming(false)}
+        >
+          Todo mundo já votou? Depois de revelar, não tem volta!
+        </ConfirmDialog>
+      )}
     </Screen>
   )
 }
