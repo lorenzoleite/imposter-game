@@ -4,18 +4,12 @@
   "words": [
     { "id": "umbrella", "pt": "Guarda-chuva", "en": "Umbrella" },
     { "id": "scissors", "pt": "Tesoura", "en": "Scissors" },
-    { "id": "key", "pt": "Chave", "en": "Key" },
     { "id": "mirror", "pt": "Espelho", "en": "Mirror" },
-    { "id": "pillow", "pt": "Travesseiro", "en": "Pillow" },
     { "id": "clock", "pt": "Relógio", "en": "Clock" },
     { "id": "phone", "pt": "Celular", "en": "Phone" },
     { "id": "glasses", "pt": "Óculos", "en": "Glasses" },
     { "id": "backpack", "pt": "Mochila", "en": "Backpack" },
     { "id": "toothbrush", "pt": "Escova de dentes", "en": "Toothbrush" },
-    { "id": "candle", "pt": "Vela", "en": "Candle" },
-    { "id": "chair", "pt": "Cadeira", "en": "Chair" },
-    { "id": "book", "pt": "Livro", "en": "Book" },
-    { "id": "pencil", "pt": "Lápis", "en": "Pencil" },
     { "id": "wallet", "pt": "Carteira", "en": "Wallet" },
     { "id": "ladder", "pt": "Escada", "en": "Ladder" },
     { "id": "hammer", "pt": "Martelo", "en": "Hammer" },
@@ -25,6 +19,16 @@
     { "id": "television", "pt": "Televisão", "en": "Television" },
     { "id": "bicycle", "pt": "Bicicleta", "en": "Bicycle" },
     { "id": "camera", "pt": "Câmera", "en": "Camera" },
-    { "id": "balloon", "pt": "Balão", "en": "Balloon" }
+    { "id": "balloon", "pt": "Balão", "en": "Balloon" },
+    { "id": "rubik-s-cube", "pt": "Cubo mágico", "en": "Rubik's Cube" },
+    { "id": "selfie-stick", "pt": "Pau de selfie", "en": "Selfie stick" },
+    { "id": "headphones", "pt": "Fone de ouvido", "en": "Headphones" },
+    { "id": "drone", "pt": "Drone", "en": "Drone" },
+    { "id": "electric-scooter", "pt": "Patinete elétrico", "en": "Electric scooter" },
+    { "id": "video-game-console", "pt": "Videogame", "en": "Video game console" },
+    { "id": "air-fryer", "pt": "Air fryer", "en": "Air fryer" },
+    { "id": "tumbler", "pt": "Copo térmico", "en": "Tumbler" },
+    { "id": "power-bank", "pt": "Power bank", "en": "Power bank" },
+    { "id": "ring-light", "pt": "Ring light", "en": "Ring light" }
   ]
 }

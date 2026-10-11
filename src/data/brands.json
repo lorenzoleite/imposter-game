@@ -1,0 +1,33 @@
+{
+  "id": "brands",
+  "name": { "pt": "Marcas e apps", "en": "Brands & Apps" },
+  "words": [
+    { "id": "coca-cola", "pt": "Coca-Cola", "en": "Coca-Cola" },
+    { "id": "mcdonald-s", "pt": "McDonald's", "en": "McDonald's" },
+    { "id": "nike", "pt": "Nike", "en": "Nike" },
+    { "id": "google", "pt": "Google", "en": "Google" },
+    { "id": "netflix", "pt": "Netflix", "en": "Netflix" },
+    { "id": "havaianas", "pt": "Havaianas", "en": "Havaianas" },
+    { "id": "ferrari", "pt": "Ferrari", "en": "Ferrari" },
+    { "id": "lego", "pt": "Lego", "en": "Lego" },
+    { "id": "nintendo", "pt": "Nintendo", "en": "Nintendo" },
+    { "id": "samsung", "pt": "Samsung", "en": "Samsung" },
+    { "id": "adidas", "pt": "Adidas", "en": "Adidas" },
+    { "id": "starbucks", "pt": "Starbucks", "en": "Starbucks" },
+    { "id": "disney", "pt": "Disney", "en": "Disney" },
+    { "id": "amazon", "pt": "Amazon", "en": "Amazon" },
+    { "id": "nubank", "pt": "Nubank", "en": "Nubank" },
+    { "id": "mercado-livre", "pt": "Mercado Livre", "en": "Mercado Livre" },
+    { "id": "ifood", "pt": "iFood", "en": "iFood" },
+    { "id": "uber", "pt": "Uber", "en": "Uber" },
+    { "id": "spotify", "pt": "Spotify", "en": "Spotify" },
+    { "id": "youtube", "pt": "YouTube", "en": "YouTube" },
+    { "id": "tiktok", "pt": "TikTok", "en": "TikTok" },
+    { "id": "instagram", "pt": "Instagram", "en": "Instagram" },
+    { "id": "whatsapp", "pt": "WhatsApp", "en": "WhatsApp" },
+    { "id": "shopee", "pt": "Shopee", "en": "Shopee" },
+    { "id": "chatgpt", "pt": "ChatGPT", "en": "ChatGPT" },
+    { "id": "tesla", "pt": "Tesla", "en": "Tesla" },
+    { "id": "guarana-antarctica", "pt": "Guaraná Antarctica", "en": "Guaraná Antarctica" }
+  ]
+}

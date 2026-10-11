@@ -9,13 +9,7 @@
     { "id": "popcorn", "pt": "Pipoca", "en": "Popcorn" },
     { "id": "ice-cream", "pt": "Sorvete", "en": "Ice cream" },
     { "id": "chocolate", "pt": "Chocolate", "en": "Chocolate" },
-    { "id": "bread", "pt": "Pão", "en": "Bread" },
     { "id": "cheese", "pt": "Queijo", "en": "Cheese" },
-    { "id": "egg", "pt": "Ovo", "en": "Egg" },
-    { "id": "rice", "pt": "Arroz", "en": "Rice" },
-    { "id": "beans", "pt": "Feijão", "en": "Beans" },
-    { "id": "salad", "pt": "Salada", "en": "Salad" },
-    { "id": "soup", "pt": "Sopa", "en": "Soup" },
     { "id": "barbecue", "pt": "Churrasco", "en": "Barbecue" },
     { "id": "pancake", "pt": "Panqueca", "en": "Pancake" },
     { "id": "french-fries", "pt": "Batata frita", "en": "French fries" },
@@ -25,6 +19,18 @@
     { "id": "spaghetti", "pt": "Espaguete", "en": "Spaghetti" },
     { "id": "sandwich", "pt": "Sanduíche", "en": "Sandwich" },
     { "id": "omelette", "pt": "Omelete", "en": "Omelette" },
-    { "id": "cookie", "pt": "Biscoito", "en": "Cookie" }
+    { "id": "coxinha", "pt": "Coxinha", "en": "Coxinha" },
+    { "id": "cheese-bread", "pt": "Pão de queijo", "en": "Cheese bread" },
+    { "id": "brigadeiro", "pt": "Brigadeiro", "en": "Brigadeiro" },
+    { "id": "acaraje", "pt": "Acarajé", "en": "Acarajé" },
+    { "id": "ramen", "pt": "Ramen", "en": "Ramen" },
+    { "id": "taco", "pt": "Taco", "en": "Taco" },
+    { "id": "moqueca", "pt": "Moqueca", "en": "Moqueca" },
+    { "id": "esfiha", "pt": "Esfiha", "en": "Esfiha" },
+    { "id": "pastel", "pt": "Pastel de feira", "en": "Pastel" },
+    { "id": "love-strawberry", "pt": "Morango do amor", "en": "Love strawberry" },
+    { "id": "tapioca", "pt": "Tapioca", "en": "Tapioca" },
+    { "id": "feijoada", "pt": "Feijoada", "en": "Feijoada" },
+    { "id": "pamonha", "pt": "Pamonha", "en": "Pamonha" }
   ]
 }

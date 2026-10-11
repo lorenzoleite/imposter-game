@@ -14,4 +14,13 @@ export const CATEGORY_EMOJI: Record<string, string> = {
   objects: '☂️',
   sports: '⚽',
   clothes: '👕',
+  musicians: '🎸',
+  celebrities: '⭐',
+  songs: '🎵',
+  'movies-tv': '🎬',
+  characters: '🦸',
+  brands: '📱',
+  countries: '🌎',
+  cities: '🏙️',
+  landmarks: '🗽',
 }
