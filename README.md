@@ -7,6 +7,7 @@ A free party word game to play with friends on a single phone. Everyone gets the
 - [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org)
 - [Vite](https://vite.dev)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Vitest](https://vitest.dev)
 
 ## Project structure
 
@@ -33,6 +34,7 @@ npm run dev
 | `npm run build`   | Type-check and build for prod    |
 | `npm run preview` | Preview the production build     |
 | `npm run lint`    | Run ESLint                       |
+| `npm test`        | Run unit tests (Vitest)          |
 
 ## Deploy
 
