@@ -33,3 +33,11 @@ npm run dev
 | `npm run build`   | Type-check and build for prod    |
 | `npm run preview` | Preview the production build     |
 | `npm run lint`    | Run ESLint                       |
+
+## Deploy
+
+Every push to `main` builds the app and publishes it to GitHub Pages via `.github/workflows/deploy.yml`.
+
+Live at: https://lorenzoleite.github.io/imposter-game/
+
+One-time setup: in the repo, go to **Settings → Pages → Source** and pick **GitHub Actions**.
