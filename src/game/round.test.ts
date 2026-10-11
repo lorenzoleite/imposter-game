@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { MAX_PLAYERS, MIN_PLAYERS, createRound, pickWord, randomIndex } from './round'
+import { MAX_PLAYERS, MIN_PLAYERS, addUsedWord, createRound, pickWord, randomIndex } from './round'
 import type { Category, Random } from './types'
 
 const fruits: Category = {
@@ -84,5 +84,16 @@ describe('createRound', () => {
     const seen = new Set<number>()
     for (let i = 0; i < 200; i++) seen.add(createRound(players(5), [fruits]).imposterIndex)
     expect([...seen].sort()).toEqual([0, 1, 2, 3, 4])
+  })
+})
+
+describe('addUsedWord', () => {
+  it('adds the word once', () => {
+    expect(addUsedWord([fruits, animals], ['apple'], 'dog')).toEqual(['apple', 'dog'])
+    expect(addUsedWord([fruits, animals], ['apple'], 'apple')).toEqual(['apple'])
+  })
+
+  it('starts over when every selected word was used', () => {
+    expect(addUsedWord([fruits], ['apple'], 'banana')).toEqual([])
   })
 })

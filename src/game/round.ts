@@ -47,3 +47,17 @@ export function createRound(
     starterIndex: randomIndex(players.length, random),
   }
 }
+
+/**
+ * Returns the used word ids after `wordId` was played. Starts over when
+ * every word in the selected categories has been used.
+ */
+export function addUsedWord(
+  categories: Category[],
+  usedWordIds: readonly string[],
+  wordId: string,
+): string[] {
+  const used = new Set([...usedWordIds, wordId])
+  const allUsed = categories.every((category) => category.words.every((word) => used.has(word.id)))
+  return allUsed ? [] : [...used]
+}
