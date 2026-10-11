@@ -45,6 +45,7 @@ Keep game logic in `src/game/` pure (no React) so it is easy to test.
 
 - **Everything in English:** file names, folders, code, commits, branches, PRs.
 - **Commits:** Conventional Commits (`feat:`, `fix:`, `chore:`, `docs:`, `refactor:`, `test:`…).
+- **Commit author:** commit as the owner only. Do NOT add `Co-Authored-By` or other Claude attribution trailers.
 - **Branches:** `feat/<short-name>`, `fix/<short-name>`, `chore/<short-name>`.
 - The owner already programs; explanations to him should be in Portuguese, simple and concise.
 
@@ -52,7 +53,7 @@ Keep game logic in `src/game/` pure (no React) so it is easy to test.
 
 1. [x] Project setup (React + Vite + TS + Tailwind)
 2. [x] GitHub Pages deploy workflow
-3. [ ] Game logic in `src/game/` (+ tests)
+3. [x] Game logic in `src/game/` (+ tests)
 4. [ ] Bilingual word lists in `src/data/`
 5. [ ] Screens: Setup → Reveal (pass the phone) → Round → Result
 6. [ ] i18n (pt / en) with language switch
@@ -65,4 +66,5 @@ npm install
 npm run dev
 npm run build
 npm run lint
+npm test
 ```
