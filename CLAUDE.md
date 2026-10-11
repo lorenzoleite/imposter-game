@@ -36,10 +36,20 @@ src/
 ├── data/      # word lists by category (pt / en)
 ├── game/      # pure game logic: draw word, draw imposter, avoid repeated words
 ├── screens/   # Setup, Reveal, Round, Result
+├── components/ # shared UI pieces (Button, Logo, Screen, Tag)
 └── App.tsx    # controls which screen is shown
 ```
 
 Keep game logic in `src/game/` pure (no React) so it is easy to test.
+
+### Visual style
+
+Game show / sticker look — avoid generic "AI app" layouts (no plain slate backgrounds, glassmorphism or soft blurred shadows).
+
+- Purple stage background with a sunburst; flat saturated colors (`sun`, `bubble`, `sky`, `mint`, `grape`, `tomato`) defined in `src/index.css` `@theme`.
+- Thick ink outline + hard offset shadow (`pop` / `pop-sm` utilities); buttons sink into the shadow when pressed (`press`).
+- Fonts: Lilita One for titles (`font-display`), Nunito for body; bundled via `@fontsource` so they work offline.
+- Playful motion: card flip, stamp, pop-in, wiggle (respects `prefers-reduced-motion`).
 
 ## Conventions
 
@@ -55,7 +65,7 @@ Keep game logic in `src/game/` pure (no React) so it is easy to test.
 2. [x] GitHub Pages deploy workflow
 3. [x] Game logic in `src/game/` (+ tests)
 4. [x] Bilingual word lists in `src/data/` (8 categories, ~190 words)
-5. [ ] Screens: Setup → Reveal (pass the phone) → Round → Result
+5. [x] Screens: Setup → Reveal (pass the phone) → Round → Result
 6. [ ] i18n (pt / en) with language switch — postponed: first release is Portuguese only (UI text hardcoded in pt-BR, words already bilingual)
 7. [ ] PWA (manifest, icons, offline)
 

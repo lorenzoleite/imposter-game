@@ -1,1 +1,114 @@
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'Lilita One', 'Arial Black', sans-serif;
+  --font-sans: 'Nunito Variable', ui-rounded, system-ui, sans-serif;
+
+  --color-ink: #1d0f3a;
+  --color-stage: #4a23a3;
+  --color-stage-dark: #2c1266;
+  --color-paper: #fff7e8;
+  --color-sun: #ffd23f;
+  --color-bubble: #ff70a6;
+  --color-sky: #5ad2f4;
+  --color-mint: #45e0a0;
+  --color-grape: #b99aff;
+  --color-tomato: #ff5a3c;
+
+  --animate-flip-in: flip-in 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+  --animate-pop-in: pop-in 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.4) both;
+  --animate-stamp: stamp 0.45s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  --animate-wiggle: wiggle 2.4s ease-in-out infinite;
+
+  @keyframes flip-in {
+    from {
+      transform: perspective(900px) rotateY(-100deg) scale(0.9);
+      opacity: 0;
+    }
+  }
+  @keyframes pop-in {
+    from {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+  }
+  @keyframes stamp {
+    from {
+      transform: scale(3) rotate(-20deg);
+      opacity: 0;
+    }
+  }
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+}
+
+/* Sticker look: thick ink outline + hard offset shadow */
+@utility pop {
+  border: 3px solid var(--color-ink);
+  box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+@utility pop-sm {
+  border: 3px solid var(--color-ink);
+  box-shadow: 2px 2px 0 var(--color-ink);
+}
+
+/* Button sinks into its shadow when pressed */
+@utility press {
+  transition:
+    transform 80ms,
+    box-shadow 80ms;
+  &:active:not(:disabled) {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 var(--color-ink);
+  }
+}
+
+/* Outlined title text with a hard drop shadow */
+@utility text-outline {
+  -webkit-text-stroke: 8px var(--color-ink);
+  paint-order: stroke fill;
+  text-shadow: 4px 5px 0 var(--color-ink);
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    min-height: 100dvh;
+    color: var(--color-ink);
+    background-color: var(--color-stage);
+    /* Game show sunburst behind everything */
+    background-image:
+      radial-gradient(circle at 50% 18%, transparent 0, var(--color-stage-dark) 90%),
+      repeating-conic-gradient(
+        from 0deg at 50% 18%,
+        rgb(255 255 255 / 0.07) 0deg 9deg,
+        transparent 9deg 18deg
+      );
+    background-attachment: fixed;
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
