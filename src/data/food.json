@@ -1,0 +1,30 @@
+{
+  "id": "food",
+  "name": { "pt": "Comida", "en": "Food" },
+  "words": [
+    { "id": "pizza", "pt": "Pizza", "en": "Pizza" },
+    { "id": "hamburger", "pt": "Hambúrguer", "en": "Hamburger" },
+    { "id": "sushi", "pt": "Sushi", "en": "Sushi" },
+    { "id": "lasagna", "pt": "Lasanha", "en": "Lasagna" },
+    { "id": "popcorn", "pt": "Pipoca", "en": "Popcorn" },
+    { "id": "ice-cream", "pt": "Sorvete", "en": "Ice cream" },
+    { "id": "chocolate", "pt": "Chocolate", "en": "Chocolate" },
+    { "id": "bread", "pt": "Pão", "en": "Bread" },
+    { "id": "cheese", "pt": "Queijo", "en": "Cheese" },
+    { "id": "egg", "pt": "Ovo", "en": "Egg" },
+    { "id": "rice", "pt": "Arroz", "en": "Rice" },
+    { "id": "beans", "pt": "Feijão", "en": "Beans" },
+    { "id": "salad", "pt": "Salada", "en": "Salad" },
+    { "id": "soup", "pt": "Sopa", "en": "Soup" },
+    { "id": "barbecue", "pt": "Churrasco", "en": "Barbecue" },
+    { "id": "pancake", "pt": "Panqueca", "en": "Pancake" },
+    { "id": "french-fries", "pt": "Batata frita", "en": "French fries" },
+    { "id": "hot-dog", "pt": "Cachorro-quente", "en": "Hot dog" },
+    { "id": "cake", "pt": "Bolo", "en": "Cake" },
+    { "id": "coffee", "pt": "Café", "en": "Coffee" },
+    { "id": "spaghetti", "pt": "Espaguete", "en": "Spaghetti" },
+    { "id": "sandwich", "pt": "Sanduíche", "en": "Sandwich" },
+    { "id": "omelette", "pt": "Omelete", "en": "Omelette" },
+    { "id": "cookie", "pt": "Biscoito", "en": "Cookie" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "clothes",
+  "name": { "pt": "Roupas", "en": "Clothes" },
+  "words": [
+    { "id": "t-shirt", "pt": "Camiseta", "en": "T-shirt" },
+    { "id": "jeans", "pt": "Calça jeans", "en": "Jeans" },
+    { "id": "dress", "pt": "Vestido", "en": "Dress" },
+    { "id": "skirt", "pt": "Saia", "en": "Skirt" },
+    { "id": "jacket", "pt": "Jaqueta", "en": "Jacket" },
+    { "id": "socks", "pt": "Meias", "en": "Socks" },
+    { "id": "hat", "pt": "Chapéu", "en": "Hat" },
+    { "id": "cap", "pt": "Boné", "en": "Cap" },
+    { "id": "scarf", "pt": "Cachecol", "en": "Scarf" },
+    { "id": "gloves", "pt": "Luvas", "en": "Gloves" },
+    { "id": "shorts", "pt": "Bermuda", "en": "Shorts" },
+    { "id": "pajamas", "pt": "Pijama", "en": "Pajamas" },
+    { "id": "swimsuit", "pt": "Maiô", "en": "Swimsuit" },
+    { "id": "bikini", "pt": "Biquíni", "en": "Bikini" },
+    { "id": "tie", "pt": "Gravata", "en": "Tie" },
+    { "id": "belt", "pt": "Cinto", "en": "Belt" },
+    { "id": "boots", "pt": "Botas", "en": "Boots" },
+    { "id": "flip-flops", "pt": "Chinelo", "en": "Flip-flops" },
+    { "id": "suit", "pt": "Terno", "en": "Suit" },
+    { "id": "coat", "pt": "Casaco", "en": "Coat" },
+    { "id": "hoodie", "pt": "Moletom", "en": "Hoodie" },
+    { "id": "uniform", "pt": "Uniforme", "en": "Uniform" },
+    { "id": "costume", "pt": "Fantasia", "en": "Costume" }
+  ]
+}

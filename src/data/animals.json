@@ -1,0 +1,31 @@
+{
+  "id": "animals",
+  "name": { "pt": "Animais", "en": "Animals" },
+  "words": [
+    { "id": "dog", "pt": "Cachorro", "en": "Dog" },
+    { "id": "cat", "pt": "Gato", "en": "Cat" },
+    { "id": "horse", "pt": "Cavalo", "en": "Horse" },
+    { "id": "cow", "pt": "Vaca", "en": "Cow" },
+    { "id": "pig", "pt": "Porco", "en": "Pig" },
+    { "id": "chicken", "pt": "Galinha", "en": "Chicken" },
+    { "id": "lion", "pt": "Leão", "en": "Lion" },
+    { "id": "tiger", "pt": "Tigre", "en": "Tiger" },
+    { "id": "elephant", "pt": "Elefante", "en": "Elephant" },
+    { "id": "giraffe", "pt": "Girafa", "en": "Giraffe" },
+    { "id": "monkey", "pt": "Macaco", "en": "Monkey" },
+    { "id": "snake", "pt": "Cobra", "en": "Snake" },
+    { "id": "shark", "pt": "Tubarão", "en": "Shark" },
+    { "id": "dolphin", "pt": "Golfinho", "en": "Dolphin" },
+    { "id": "whale", "pt": "Baleia", "en": "Whale" },
+    { "id": "penguin", "pt": "Pinguim", "en": "Penguin" },
+    { "id": "owl", "pt": "Coruja", "en": "Owl" },
+    { "id": "parrot", "pt": "Papagaio", "en": "Parrot" },
+    { "id": "frog", "pt": "Sapo", "en": "Frog" },
+    { "id": "rabbit", "pt": "Coelho", "en": "Rabbit" },
+    { "id": "bear", "pt": "Urso", "en": "Bear" },
+    { "id": "turtle", "pt": "Tartaruga", "en": "Turtle" },
+    { "id": "spider", "pt": "Aranha", "en": "Spider" },
+    { "id": "butterfly", "pt": "Borboleta", "en": "Butterfly" },
+    { "id": "alligator", "pt": "Jacaré", "en": "Alligator" }
+  ]
+}

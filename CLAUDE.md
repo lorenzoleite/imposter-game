@@ -54,9 +54,9 @@ Keep game logic in `src/game/` pure (no React) so it is easy to test.
 1. [x] Project setup (React + Vite + TS + Tailwind)
 2. [x] GitHub Pages deploy workflow
 3. [x] Game logic in `src/game/` (+ tests)
-4. [ ] Bilingual word lists in `src/data/`
+4. [x] Bilingual word lists in `src/data/` (8 categories, ~190 words)
 5. [ ] Screens: Setup → Reveal (pass the phone) → Round → Result
-6. [ ] i18n (pt / en) with language switch
+6. [ ] i18n (pt / en) with language switch — postponed: first release is Portuguese only (UI text hardcoded in pt-BR, words already bilingual)
 7. [ ] PWA (manifest, icons, offline)
 
 ## Commands

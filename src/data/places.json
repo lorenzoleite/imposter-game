@@ -1,0 +1,31 @@
+{
+  "id": "places",
+  "name": { "pt": "Lugares", "en": "Places" },
+  "words": [
+    { "id": "beach", "pt": "Praia", "en": "Beach" },
+    { "id": "school", "pt": "Escola", "en": "School" },
+    { "id": "hospital", "pt": "Hospital", "en": "Hospital" },
+    { "id": "airport", "pt": "Aeroporto", "en": "Airport" },
+    { "id": "supermarket", "pt": "Supermercado", "en": "Supermarket" },
+    { "id": "library", "pt": "Biblioteca", "en": "Library" },
+    { "id": "movie-theater", "pt": "Cinema", "en": "Movie theater" },
+    { "id": "church", "pt": "Igreja", "en": "Church" },
+    { "id": "museum", "pt": "Museu", "en": "Museum" },
+    { "id": "zoo", "pt": "Zoológico", "en": "Zoo" },
+    { "id": "gym", "pt": "Academia", "en": "Gym" },
+    { "id": "restaurant", "pt": "Restaurante", "en": "Restaurant" },
+    { "id": "bank", "pt": "Banco", "en": "Bank" },
+    { "id": "park", "pt": "Parque", "en": "Park" },
+    { "id": "stadium", "pt": "Estádio", "en": "Stadium" },
+    { "id": "farm", "pt": "Fazenda", "en": "Farm" },
+    { "id": "mall", "pt": "Shopping", "en": "Mall" },
+    { "id": "bakery", "pt": "Padaria", "en": "Bakery" },
+    { "id": "pharmacy", "pt": "Farmácia", "en": "Pharmacy" },
+    { "id": "prison", "pt": "Prisão", "en": "Prison" },
+    { "id": "hotel", "pt": "Hotel", "en": "Hotel" },
+    { "id": "desert", "pt": "Deserto", "en": "Desert" },
+    { "id": "forest", "pt": "Floresta", "en": "Forest" },
+    { "id": "mountain", "pt": "Montanha", "en": "Mountain" },
+    { "id": "island", "pt": "Ilha", "en": "Island" }
+  ]
+}
