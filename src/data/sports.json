@@ -13,8 +13,6 @@
     { "id": "judo", "pt": "Judô", "en": "Judo" },
     { "id": "golf", "pt": "Golfe", "en": "Golf" },
     { "id": "baseball", "pt": "Beisebol", "en": "Baseball" },
-    { "id": "running", "pt": "Corrida", "en": "Running" },
-    { "id": "cycling", "pt": "Ciclismo", "en": "Cycling" },
     { "id": "chess", "pt": "Xadrez", "en": "Chess" },
     { "id": "table-tennis", "pt": "Pingue-pongue", "en": "Table tennis" },
     { "id": "handball", "pt": "Handebol", "en": "Handball" },
@@ -24,8 +22,13 @@
     { "id": "bowling", "pt": "Boliche", "en": "Bowling" },
     { "id": "skiing", "pt": "Esqui", "en": "Skiing" },
     { "id": "climbing", "pt": "Escalada", "en": "Climbing" },
-    { "id": "fishing", "pt": "Pesca", "en": "Fishing" },
     { "id": "capoeira", "pt": "Capoeira", "en": "Capoeira" },
-    { "id": "horse-riding", "pt": "Hipismo", "en": "Horse riding" }
+    { "id": "horse-riding", "pt": "Hipismo", "en": "Horse riding" },
+    { "id": "beach-tennis", "pt": "Beach tennis", "en": "Beach tennis" },
+    { "id": "pickleball", "pt": "Pickleball", "en": "Pickleball" },
+    { "id": "footvolley", "pt": "Futevôlei", "en": "Footvolley" },
+    { "id": "ufc", "pt": "UFC", "en": "UFC" },
+    { "id": "crossfit", "pt": "Crossfit", "en": "CrossFit" },
+    { "id": "skydiving", "pt": "Paraquedismo", "en": "Skydiving" }
   ]
 }

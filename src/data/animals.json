@@ -3,11 +3,7 @@
   "name": { "pt": "Animais", "en": "Animals" },
   "words": [
     { "id": "dog", "pt": "Cachorro", "en": "Dog" },
-    { "id": "cat", "pt": "Gato", "en": "Cat" },
     { "id": "horse", "pt": "Cavalo", "en": "Horse" },
-    { "id": "cow", "pt": "Vaca", "en": "Cow" },
-    { "id": "pig", "pt": "Porco", "en": "Pig" },
-    { "id": "chicken", "pt": "Galinha", "en": "Chicken" },
     { "id": "lion", "pt": "Leão", "en": "Lion" },
     { "id": "tiger", "pt": "Tigre", "en": "Tiger" },
     { "id": "elephant", "pt": "Elefante", "en": "Elephant" },
@@ -26,6 +22,16 @@
     { "id": "turtle", "pt": "Tartaruga", "en": "Turtle" },
     { "id": "spider", "pt": "Aranha", "en": "Spider" },
     { "id": "butterfly", "pt": "Borboleta", "en": "Butterfly" },
-    { "id": "alligator", "pt": "Jacaré", "en": "Alligator" }
+    { "id": "alligator", "pt": "Jacaré", "en": "Alligator" },
+    { "id": "capybara", "pt": "Capivara", "en": "Capybara" },
+    { "id": "sloth", "pt": "Bicho-preguiça", "en": "Sloth" },
+    { "id": "toucan", "pt": "Tucano", "en": "Toucan" },
+    { "id": "platypus", "pt": "Ornitorrinco", "en": "Platypus" },
+    { "id": "golden-lion-tamarin", "pt": "Mico-leão-dourado", "en": "Golden lion tamarin" },
+    { "id": "axolotl", "pt": "Axolote", "en": "Axolotl" },
+    { "id": "octopus", "pt": "Polvo", "en": "Octopus" },
+    { "id": "kangaroo", "pt": "Canguru", "en": "Kangaroo" },
+    { "id": "flamingo", "pt": "Flamingo", "en": "Flamingo" },
+    { "id": "llama", "pt": "Lhama", "en": "Llama" }
   ]
 }

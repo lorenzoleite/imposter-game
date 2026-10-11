@@ -64,7 +64,7 @@ Game show / sticker look — avoid generic "AI app" layouts (no plain slate back
 1. [x] Project setup (React + Vite + TS + Tailwind)
 2. [x] GitHub Pages deploy workflow
 3. [x] Game logic in `src/game/` (+ tests)
-4. [x] Bilingual word lists in `src/data/` (8 categories, ~190 words)
+4. [x] Bilingual word lists in `src/data/` (17 categories, ~470 words: pop culture, world and everyday)
 5. [x] Screens: Setup → Reveal (pass the phone) → Round → Result
 6. [ ] i18n (pt / en) with language switch — postponed: first release is Portuguese only (UI text hardcoded in pt-BR, words already bilingual)
 7. [ ] PWA (manifest, icons, offline)
