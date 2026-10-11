@@ -3,7 +3,23 @@ import type { Category, Random, Round, Word } from './types'
 export const MIN_PLAYERS = 3
 export const MAX_PLAYERS = 15
 
-export function randomIndex(length: number, random: Random = Math.random): number {
+// Random values are fetched in batches because each crypto call has a cost
+const buffer = new Uint32Array(1024)
+let position = buffer.length
+
+/**
+ * Uniform number in [0, 1) from the browser's cryptographic generator,
+ * which is better than Math.random (no predictable patterns).
+ */
+export const cryptoRandom: Random = () => {
+  if (position === buffer.length) {
+    crypto.getRandomValues(buffer)
+    position = 0
+  }
+  return buffer[position++] / 2 ** 32
+}
+
+export function randomIndex(length: number, random: Random = cryptoRandom): number {
   return Math.floor(random() * length)
 }
 
@@ -14,7 +30,7 @@ export function randomIndex(length: number, random: Random = Math.random): numbe
 export function pickWord(
   categories: Category[],
   usedWordIds: ReadonlySet<string> = new Set(),
-  random: Random = Math.random,
+  random: Random = cryptoRandom,
 ): { categoryId: string; word: Word } {
   const pool = categories.flatMap((category) =>
     category.words.map((word) => ({ categoryId: category.id, word })),
@@ -32,7 +48,7 @@ export function createRound(
   players: string[],
   categories: Category[],
   usedWordIds: ReadonlySet<string> = new Set(),
-  random: Random = Math.random,
+  random: Random = cryptoRandom,
 ): Round {
   if (players.length < MIN_PLAYERS || players.length > MAX_PLAYERS) {
     throw new Error(`Player count must be between ${MIN_PLAYERS} and ${MAX_PLAYERS}`)
