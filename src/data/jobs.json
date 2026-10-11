@@ -1,0 +1,31 @@
+{
+  "id": "jobs",
+  "name": { "pt": "Profissões", "en": "Jobs" },
+  "words": [
+    { "id": "doctor", "pt": "Médico", "en": "Doctor" },
+    { "id": "teacher", "pt": "Professor", "en": "Teacher" },
+    { "id": "firefighter", "pt": "Bombeiro", "en": "Firefighter" },
+    { "id": "police-officer", "pt": "Policial", "en": "Police officer" },
+    { "id": "chef", "pt": "Cozinheiro", "en": "Chef" },
+    { "id": "pilot", "pt": "Piloto", "en": "Pilot" },
+    { "id": "dentist", "pt": "Dentista", "en": "Dentist" },
+    { "id": "lawyer", "pt": "Advogado", "en": "Lawyer" },
+    { "id": "engineer", "pt": "Engenheiro", "en": "Engineer" },
+    { "id": "nurse", "pt": "Enfermeiro", "en": "Nurse" },
+    { "id": "farmer", "pt": "Fazendeiro", "en": "Farmer" },
+    { "id": "mechanic", "pt": "Mecânico", "en": "Mechanic" },
+    { "id": "hairdresser", "pt": "Cabeleireiro", "en": "Hairdresser" },
+    { "id": "programmer", "pt": "Programador", "en": "Programmer" },
+    { "id": "photographer", "pt": "Fotógrafo", "en": "Photographer" },
+    { "id": "astronaut", "pt": "Astronauta", "en": "Astronaut" },
+    { "id": "actor", "pt": "Ator", "en": "Actor" },
+    { "id": "singer", "pt": "Cantor", "en": "Singer" },
+    { "id": "journalist", "pt": "Jornalista", "en": "Journalist" },
+    { "id": "architect", "pt": "Arquiteto", "en": "Architect" },
+    { "id": "judge", "pt": "Juiz", "en": "Judge" },
+    { "id": "waiter", "pt": "Garçom", "en": "Waiter" },
+    { "id": "plumber", "pt": "Encanador", "en": "Plumber" },
+    { "id": "veterinarian", "pt": "Veterinário", "en": "Veterinarian" },
+    { "id": "soccer-player", "pt": "Jogador de futebol", "en": "Soccer player" }
+  ]
+}

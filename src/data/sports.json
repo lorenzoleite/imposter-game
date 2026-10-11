@@ -1,0 +1,31 @@
+{
+  "id": "sports",
+  "name": { "pt": "Esportes", "en": "Sports" },
+  "words": [
+    { "id": "soccer", "pt": "Futebol", "en": "Soccer" },
+    { "id": "basketball", "pt": "Basquete", "en": "Basketball" },
+    { "id": "volleyball", "pt": "Vôlei", "en": "Volleyball" },
+    { "id": "tennis", "pt": "Tênis", "en": "Tennis" },
+    { "id": "swimming", "pt": "Natação", "en": "Swimming" },
+    { "id": "surfing", "pt": "Surfe", "en": "Surfing" },
+    { "id": "skateboarding", "pt": "Skate", "en": "Skateboarding" },
+    { "id": "boxing", "pt": "Boxe", "en": "Boxing" },
+    { "id": "judo", "pt": "Judô", "en": "Judo" },
+    { "id": "golf", "pt": "Golfe", "en": "Golf" },
+    { "id": "baseball", "pt": "Beisebol", "en": "Baseball" },
+    { "id": "running", "pt": "Corrida", "en": "Running" },
+    { "id": "cycling", "pt": "Ciclismo", "en": "Cycling" },
+    { "id": "chess", "pt": "Xadrez", "en": "Chess" },
+    { "id": "table-tennis", "pt": "Pingue-pongue", "en": "Table tennis" },
+    { "id": "handball", "pt": "Handebol", "en": "Handball" },
+    { "id": "formula-1", "pt": "Fórmula 1", "en": "Formula 1" },
+    { "id": "gymnastics", "pt": "Ginástica", "en": "Gymnastics" },
+    { "id": "karate", "pt": "Caratê", "en": "Karate" },
+    { "id": "bowling", "pt": "Boliche", "en": "Bowling" },
+    { "id": "skiing", "pt": "Esqui", "en": "Skiing" },
+    { "id": "climbing", "pt": "Escalada", "en": "Climbing" },
+    { "id": "fishing", "pt": "Pesca", "en": "Fishing" },
+    { "id": "capoeira", "pt": "Capoeira", "en": "Capoeira" },
+    { "id": "horse-riding", "pt": "Hipismo", "en": "Horse riding" }
+  ]
+}

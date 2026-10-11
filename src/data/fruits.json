@@ -1,0 +1,26 @@
+{
+  "id": "fruits",
+  "name": { "pt": "Frutas", "en": "Fruits" },
+  "words": [
+    { "id": "apple", "pt": "Maçã", "en": "Apple" },
+    { "id": "banana", "pt": "Banana", "en": "Banana" },
+    { "id": "orange", "pt": "Laranja", "en": "Orange" },
+    { "id": "grape", "pt": "Uva", "en": "Grape" },
+    { "id": "strawberry", "pt": "Morango", "en": "Strawberry" },
+    { "id": "watermelon", "pt": "Melancia", "en": "Watermelon" },
+    { "id": "pineapple", "pt": "Abacaxi", "en": "Pineapple" },
+    { "id": "mango", "pt": "Manga", "en": "Mango" },
+    { "id": "lemon", "pt": "Limão", "en": "Lemon" },
+    { "id": "coconut", "pt": "Coco", "en": "Coconut" },
+    { "id": "avocado", "pt": "Abacate", "en": "Avocado" },
+    { "id": "papaya", "pt": "Mamão", "en": "Papaya" },
+    { "id": "pear", "pt": "Pera", "en": "Pear" },
+    { "id": "peach", "pt": "Pêssego", "en": "Peach" },
+    { "id": "cherry", "pt": "Cereja", "en": "Cherry" },
+    { "id": "kiwi", "pt": "Kiwi", "en": "Kiwi" },
+    { "id": "melon", "pt": "Melão", "en": "Melon" },
+    { "id": "passion-fruit", "pt": "Maracujá", "en": "Passion fruit" },
+    { "id": "guava", "pt": "Goiaba", "en": "Guava" },
+    { "id": "acai", "pt": "Açaí", "en": "Açaí" }
+  ]
+}
