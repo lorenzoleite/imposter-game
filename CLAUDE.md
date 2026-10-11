@@ -51,7 +51,7 @@ Keep game logic in `src/game/` pure (no React) so it is easy to test.
 ## Roadmap
 
 1. [x] Project setup (React + Vite + TS + Tailwind)
-2. [ ] GitHub Pages deploy workflow
+2. [x] GitHub Pages deploy workflow
 3. [ ] Game logic in `src/game/` (+ tests)
 4. [ ] Bilingual word lists in `src/data/`
 5. [ ] Screens: Setup → Reveal (pass the phone) → Round → Result
